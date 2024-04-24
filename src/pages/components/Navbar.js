@@ -22,12 +22,11 @@ const Navbar = () => {
             </div>
           </div>
         </li>
+  
         <li className="nav-item">
-          <Link to="/Colab" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Google Golab</Link>
+          <Link to="/Colab" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">About Us</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/Presentation" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Slide Presentation</Link>
-        </li>
+
       </ul>
     </nav>
   );
