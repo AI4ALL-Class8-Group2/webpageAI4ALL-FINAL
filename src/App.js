@@ -7,9 +7,11 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom"
+import Navbar from './components/Navbar';
 
 const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedinLink }) => {
     return(
+        
         <div className="card">
             <div className="thumb">
                 <img src={imageSrc} alt={name} /> 
@@ -37,6 +39,7 @@ const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedin
 
 const App = () => {
     return (
+        
         <div>
 <div className="company-container">
   <img src="https://cdn.filestackcontent.com/resize=width:600,height:315,fit:max/quality=value:90/1tIALmlJTpab7D6jw4z8" alt="Company Logo" className="company-logo" />
@@ -108,8 +111,9 @@ const App = () => {
         <br></br>
         <div>
         <h3 className="project-subtitle-container">This project seeks to determine the fatality of gun violence incidents. The initial dataset comprised of data from 22 Police Departments across the United States.</h3>
-        <a href="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor" className="github-button"><strong>Github</strong> Project Repository <br /> <FontAwesomeIcon icon={faGithub} /></a>
-
+        <a href="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor" target="_blank"className="github-button"><strong>Github</strong> Project Repository <br /> <FontAwesomeIcon icon={faGithub} /></a>
+        <br></br>
+        <a href="https://github.com/AI4ALL-Class8-Group2" target="_blank" className="github-button2"><strong>Github</strong> Group Page <br /> <FontAwesomeIcon icon={faGithub} /></a>
         </div>
         <br></br>
         <br></br>

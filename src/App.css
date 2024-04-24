@@ -249,12 +249,30 @@ body {
 
 }
 
+.github-button2 {
+  display: block;
+  padding: 10px 20px;
+  background-color: #48515d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px auto 0; /* Top margin of 10px, horizontally centered */
+  max-width: 10%; /* Adjust the maximum width as needed */
+  text-align: center; /* Center text within the button */
+
+}
+
 .github-button:hover {
   background-color: #555;
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
 }
 
+.github-button2:hover {
+  background-color: #5b6b80;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
 
 
 .chart-container a {
