@@ -41,13 +41,15 @@ const App = () => {
     return (
         <>
         <Navbar></Navbar>
+        <br></br>
+        <br></br>
         <div>
 <div className="company-container">
   <img src="https://cdn.filestackcontent.com/resize=width:600,height:315,fit:max/quality=value:90/1tIALmlJTpab7D6jw4z8" alt="Company Logo" className="company-logo" />
 </div>
 <br></br>
 <br></br>
-<br></br>
+
 
 
             <div className="about-us-container">
@@ -84,7 +86,7 @@ const App = () => {
                 <AboutUs                     
                     name="Beauty Kabore"
                     position="Developer"
-                    imageSrc=""
+                    imageSrc="https://media.licdn.com/dms/image/C4D03AQEvP-00VXwHzQ/profile-displayphoto-shrink_200_200/0/1560354836947?e=1719446400&v=beta&t=BziUYVHaXxRjnBzC4BdbAG51NbAsKZDGEsmbEDN6uDo"
                     githubLink="https://github.com/BeautyKabore"
                     instagramLink="https://www.instagram.com/johndoe"
                     linkedinLink="https://www.linkedin.com/in/darylcartwright/"
@@ -122,7 +124,7 @@ const App = () => {
 
             <div className="chart-container">
                         <h3>Chart 1: Victim Sex</h3>
-                        <Link to="./Chart1" target="_blank">
+                        <Link to="./Chart1">
                         <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/Chart%201.png?raw=true" alt="victim_sex" />
                         </Link>
                         {/* Add your chart component here */}
@@ -130,7 +132,7 @@ const App = () => {
 
             <div className="chart-container">
                 <h3>Chart 2: Violin Plot</h3>
-                <Link to="./Chart2" target="_blank">
+                <Link to="./Chart2">
                 <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/Chart%202.png?raw=true" alt="violin plot" />
                 {/* Add your chart component here */}
                 </Link>
@@ -138,7 +140,7 @@ const App = () => {
             
             <div className="chart-container">
                 <h3>Chart 3: Histograms</h3>
-                <Link to="./Chart3" target="_blank">
+                <Link to="./Chart3">
                 <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/Chart%203.png?raw=true" alt="histograms" />
                 {/* Add your chart component here */}
                 </Link>
@@ -147,7 +149,7 @@ const App = () => {
             
             <div className="chart-container">
                 <h3>Chart 4: Victim Age Grouping</h3>
-                <Link to="./Chart4" target="_blank">
+                <Link to="./Chart4">
                 <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/Chart%204.png?raw=true" alt="Victim Age Grouping" />
                 {/* Add your chart component here */}
                 </Link>
@@ -156,7 +158,7 @@ const App = () => {
             
             <div className="chart-container">
                 <h3>Chart 5: Decision Tree Visual</h3>
-                <Link to="./Chart5" target="_blank">
+                <Link to="./Chart5">
                 <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/decision_tree.png?raw=true" alt="decision tree visual" />
                 {/* Add your chart component here */}
                 </Link>
@@ -165,7 +167,7 @@ const App = () => {
             
             <div className="chart-container">
                 <h3>Plot of ROC & Youden's</h3>
-                <Link to="./ROCYOUDEN" target="_blank">
+                <Link to="./ROCYOUDEN">
                 <img src="https://github.com/AI4ALL-Class8-Group2/Gun-Violence-Incident-Fatality-Predictor/blob/pictures/ROC%20and%20Youdens.png?raw=true" alt="ROC" />
                 {/* Add your chart component here */}
                 </Link>

@@ -7,11 +7,11 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="/" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Home</a>
+          <Link to="/" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Home</Link>
         </li>
         <li className="nav-item">
           <div className="dropdown">
-            <a href="" className="dropbtn" style={{ fontSize: '1.2rem' }} tabIndex="0">Charts</a>
+            <Link to="" className="dropbtn" style={{ fontSize: '1.2rem' }} tabIndex="0"><strong>Charts</strong></Link>
             <div className="dropdown-content">
               <li><Link to="/Chart1">Chart1</Link></li>
               <li><Link to="/Chart2">Chart2</Link></li>
@@ -23,10 +23,10 @@ const Navbar = () => {
           </div>
         </li>
         <li className="nav-item">
-          <a href="/contact" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Google Golab</a>
+          <Link to="/Colab" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Google Golab</Link>
         </li>
         <li className="nav-item">
-          <a href="/contact" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Slide Presentation</a>
+          <Link to="/Presentation" className="nav-link" style={{ fontSize: '1.2rem' }} tabIndex="0">Slide Presentation</Link>
         </li>
       </ul>
     </nav>

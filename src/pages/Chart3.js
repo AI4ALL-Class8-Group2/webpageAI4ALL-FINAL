@@ -1,4 +1,5 @@
 import React from 'react'
+import './Charts.css'
 import Navbar from './components/Navbar';
 
 function Chart3() {

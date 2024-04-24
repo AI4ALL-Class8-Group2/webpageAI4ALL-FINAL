@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Chart1 from './pages/Chart1'
-import Chart2 from './pages/Chart2'
-import Chart3 from './pages/Chart3'
-import Chart4 from './pages/Chart4'
-import Chart5 from './pages/Chart5'
-import ROCYOUDEN from './pages/ROCYOUDEN'
+
+import Chart1 from './pages/Chart1';
+import Chart2 from './pages/Chart2';
+import Chart3 from './pages/Chart3';
+import Chart4 from './pages/Chart4';
+import Chart5 from './pages/Chart5';
+import ROCYOUDEN from './pages/ROCYOUDEN';
+import Colab from './pages/Colab';
+import Presentation from './pages/Presentation';
 import reportWebVitals from './reportWebVitals';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -50,6 +54,14 @@ const router = createBrowserRouter([
   {
     path: "ROCYOUDEN",
     element: <ROCYOUDEN/>,
+  },
+  {
+    path: "Colab",
+    element: <Colab/>,
+  },
+  {
+    path: "Presentation",
+    element: <Presentation/>,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
