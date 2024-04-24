@@ -1,0 +1,6 @@
+.CenterChart{
+    text-align: center; /* Center text within the button */
+}
+body {
+  background: linear-gradient(to bottom, #f0e8e0, #ffffff); /* Adjust colors as needed */
+}
