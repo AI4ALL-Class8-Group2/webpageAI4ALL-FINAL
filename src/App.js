@@ -39,7 +39,8 @@ const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedin
 
 const App = () => {
     return (
-        
+        <>
+        <Navbar></Navbar>
         <div>
 <div className="company-container">
   <img src="https://cdn.filestackcontent.com/resize=width:600,height:315,fit:max/quality=value:90/1tIALmlJTpab7D6jw4z8" alt="Company Logo" className="company-logo" />
@@ -170,6 +171,7 @@ const App = () => {
                 </Link>
             </div>
     </div>
+    </>
     );
 };
 
