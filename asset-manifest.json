@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/css/main.8963bcdd.css",
+    "main.js": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/js/main.e7e1f6bf.js",
+    "static/js/453.ed3810f9.chunk.js": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/index.html",
+    "main.8963bcdd.css.map": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/css/main.8963bcdd.css.map",
+    "main.e7e1f6bf.js.map": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/js/main.e7e1f6bf.js.map",
+    "453.ed3810f9.chunk.js.map": "/AI4ALL-Class8-Group2/webpageAI4ALL-FINAL/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8963bcdd.css",
+    "static/js/main.e7e1f6bf.js"
+  ]
+}
