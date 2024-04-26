@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedinLink }) => {
     return (
         <>
-        <Navbar></Navbar>
             <div className="card">
                 <div className="thumb">
                     <img src={imageSrc} alt={name} /> 
@@ -34,6 +33,7 @@ const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedin
 
 const App = () => {
     return (
+        <Navbar></Navbar>
         <div className="card-container">
             <AboutUs 
                     name="Connor Morris"
