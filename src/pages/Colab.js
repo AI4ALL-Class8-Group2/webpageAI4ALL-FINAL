@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Navbar from './components/Navbar';
 
 const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedinLink }) => {
     return (
