@@ -6,6 +6,7 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedinLink }) => {
     return (
         <>
+        <Navbar></Navbar>
             <div className="card">
                 <div className="thumb">
                     <img src={imageSrc} alt={name} /> 
