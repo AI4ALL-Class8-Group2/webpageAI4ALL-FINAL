@@ -34,6 +34,8 @@ const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedin
 const App = () => {
     return (
         <Navbar></Navbar>
+        <br></br>
+        <br></br>
         <div className="card-container">
             <AboutUs 
                     name="Connor Morris"
