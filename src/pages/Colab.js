@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Navbar from './components/Navbar';
+
 
 const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedinLink }) => {
     return (
@@ -33,7 +33,6 @@ const AboutUs = ({ name, position, imageSrc, githubLink, instagramLink, linkedin
 
 const App = () => {
     return (
-        <Navbar></Navbar>
         <br></br>
         <br></br>
         <div className="card-container">
